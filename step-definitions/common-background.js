@@ -1,4 +1,4 @@
-let slowDown = true;
+let slowDown = false;
 
 async function waitAWhile() {
   await driver.sleep(slowDown ? 5000 : 0);
